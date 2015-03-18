@@ -1,7 +1,11 @@
 {
   "name": "myangulardemo1",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "express": "~4.9.*",
+    "morgan": "*",
+    "gzippo": "*"
+  },
   "repository": {},
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -32,10 +36,7 @@
     "karma-jasmine": "^0.3.5",
     "karma-phantomjs-launcher": "^0.1.4",
     "load-grunt-tasks": "^3.1.0",
-    "time-grunt": "^1.0.0",
-    "express": "4.12.3",
-    "morgan": "*",
-    "gzippo": "0.2.0"
+    "time-grunt": "^1.0.0"
   },
   "engines": {
     "node": ">=0.10.0"
